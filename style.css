@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.hero{
+    padding: 40px 110px 30px 150px;
+    position: relative;
+    overflow: hidden;
+}
+.hero-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.header-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 862px;
+    height: 42px;
+    list-style-type: none;
+    font-family: Roboto , sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    
+}
+.flyout-menus{
+    text-decoration: none;
+    color: #373737;
+}
+
+.header-items.apply{
+    border: 2px solid #717CFF;
+    border-radius: 11px;
+    padding: 10px 30px;
+}
+
+.hero-main{
+    display: flex;
+}
+.hero-caption{
+    width: 632px;
+    height: 154px;
+    font-family: Roboto ,sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 66px;
+    color: #2F2F2F;
+    box-sizing: border-box;
+    padding-right: 200px;
+    margin: 20px 0;
+}
+span{
+    color: #717CFF;
+}
+.hero-paragraph{
+    width: 632px;
+    height: 80px;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    color: #7D7D7D;
+    margin-bottom: 45px;
+}
+.apply-online{
+    width: 262px;
+    height: 64px;
+    background: #717CFF;
+    border-radius: 11px;
+    padding: 12px 0 12px 35px;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.apply-online-items{
+    
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 42px;
+
+}
+.apps{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.student-girl{
+    position: absolute;
+    width: 470px;
+    height: 565px;
+    left: 842px;
+    top: 210px;
+    z-index: 1;
+}
+.oval{
+    position: absolute;
+    width: 1030px;
+    height: 581px;
+    left: 661px;
+    top: 327px;
+    outline: none;
+}
+.icon-navigation{
+    width: 28px;
+    height: 28px;
+}
+/* header-finished */
+.partners{
+    box-sizing: border-box;
+    height: 423px;
+    padding: 55px 128px 55px 110px;
+    background: #FAFAFA;
+    
+}
+.univer-logo{
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.universities{
+   font-family: Roboto,sans-serif;
+   font-weight: 500;
+   font-size: 23px;
+   line-height: 27px;
+   text-align: center;
+   letter-spacing: 2.1px;
+   text-transform: uppercase;
+   color: #373737;
+   opacity: 0.73;
+   margin-bottom: 90px;
+}
+.oval-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 14px;
+    margin: 0 auto;
+}
+.btn-items{
+    list-style: none;
+    
+}
+.btn{
+    width: 10px;
+    height: 10px;
+    background: rgba(124, 124, 124, 0.318837);
+    border-radius: 50%;
+    border: none;
+}
+.btn.stayed{
+    background: #717CFF;
+    width: 14px;
+    height: 14px;
+}
+.feature{
+    width: auto;
+    height: 1266px;
+    padding: 122px 168px 126px 146px ;
+    box-sizing: border-box;
+}
+.feature-title{
+    width: 950px;
+    height: 160px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+    background-color: #FFFFFF;
+}
+.feature-title-h2{
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.4625px;
+    color: #373737;
+    margin-bottom: 20px;
+
+}
+.feature-title-paragraph{
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+    
+}
+.feature-lists{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    box-sizing: border-box;
+}
+.feature-items{
+    list-style: none;
+    box-sizing: border-box;
+    width: 344px;
+    height: 351px;
+    padding: 30px 17px 30px 31px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    
+}
+.feature-items:nth-child(2){
+    margin: 0 47px 50px 47px;
+}
+.feature-items:nth-child(4) {
+    margin: 0 47px 50px 0 ;
+}
+.feature-h3{
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    color: #37474F;
+    margin-bottom: 10px;
+}
+.feature-items-paragraph{
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: rgba(55, 71, 79, 0.721569);
+    margin-bottom: 25px;
+}
+.learn{
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.439286px;
+    color: #717CFF;
+    text-decoration: none;
+    margin-right: 14px;
+    
+}
+
+.learn-more{
+    display: flex;
+    align-items: center;
+}
+.feature-imgs{
+    margin-bottom: 30px;
+}
+.news{
+    width: auto;
+    height: 1120px;
+    box-sizing: border-box;
+    padding: 102px 168px 124px 146px;
+    background: #FAFAFA;
+}
+.news-title {
+    width: 950px;
+    height: 160px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+    
+}
+
+.news-title-h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.4625px;
+    color: #373737;
+    margin-bottom: 20px;
+
+}
+
+.news-title-paragraph {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+
+}
+.news-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 165px;
+}
+.news-items{
+    width: 344px;
+    height: 406px;
+    box-sizing: border-box;
+    list-style: none;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+    border-radius: 10px;
+}
+.bx.bxs-calendar-alt {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+time{
+    font-family: Roboto,sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #565656;
+}
+.news-items-paragraph{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #252525;
+}
+.clock{
+    margin-left: 23px;
+    
+}
+.card-blog{
+    margin-bottom: 25px;
+}
+.news-items-paragraph{
+    margin: 17px 27px 62px 27px;
+}
+.join-here{
+    width: 226px;
+    height: 64px;
+    background: #717CFF;
+    border-radius: 11px;
+    padding: 12px 0 12px 35px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.join{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 40px;
+
+}
+.partner-countries{
+    width: auto;
+    height:  750px;
+    padding: 82px 160px 136px 144px;
+}
+.countries-title {
+    width: 950px;
+    height: 160px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+
+}
+
+.countries-title-h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.4625px;
+    color: #373737;
+    margin-bottom: 20px;
+
+}
+
+.countries-title-paragraph {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+
+}
+.countries-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 80px;
+}
+.countries-items{
+    width: 348px;
+    height: 354px;
+    box-sizing: border-box;
+}
+.countries-items-h3{
+    font-family: Roboto,sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #37474F;
+    margin-bottom: 10px;
+}
+.countries-items-paragraph{
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(55, 71, 79, 0.721569);
+}
+.countries-img{
+    margin-bottom: 25px;
+}
